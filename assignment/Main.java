@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
 
         BankAccount account = new BankAccount(101, "Ravi", 17, 200, "Savings");
-        NotificationService notificationService = new NotificationService();
+        Notification notificationService = new Notification();
         DataBase dataBase = new DataBase();
 
         double depositAmount = 1000;
